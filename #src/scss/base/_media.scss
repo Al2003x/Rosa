@@ -1,0 +1,134 @@
+/**
+@media (min-width: 992px){
+   &:hover{
+
+   }
+}
+*/
+
+
+@media (min-width: 1400px){
+
+}
+
+@media (min-width: 1200px){
+  
+}
+
+@media (min-width: 992px){
+   section{
+      padding: 7.9rem;
+   }
+   .burger{
+      display: none;
+   }
+   .nav{
+      justify-content: space-between;
+   }
+   .header{
+      &__list{
+         position: initial;
+         width: initial;
+         height: initial;
+         background: transparent;
+         padding: 0;
+         flex-direction: row;
+         justify-content: initial;
+         transform: initial;
+         li{
+            margin: 0 2.4rem;
+            border: none;
+            &:last-child{
+               margin-right: 0;
+            }
+            ._active{
+                  position: relative;
+                   &:before{
+                     content: '';
+                     position: absolute;
+                     width: 100%;
+                     height: 2px;
+                     background: $white;
+                     left: 0;
+                     bottom: -3px;
+                     transition: all ease-in .3s;
+                  }
+                  @media (min-width: 992px){
+                     &:hover{
+                         color: $brown;
+                         &:before{
+                            background: $brown;
+                         }
+                     }
+                  }
+               }
+            a{
+               font-size: 1.3rem;
+               
+            }
+         }
+      }
+   }
+   .sub-headline{
+      font-size: 10rem;
+   }
+   .first-later{
+      font-size: 12.2rem;
+   }
+   .headline{
+      font-size: 4.7rem;
+      letter-spacing: 0.8rem;
+   }
+   .line{
+      max-width: 11.4rem;
+   }
+   .restaurant-info{
+      display: flex;
+      align-items: center;
+      & > div{
+         flex: 1;
+      }
+   }
+   .padding-right{
+      padding-right: 7rem;
+   }
+   .footer{
+      &__body{
+         max-width: 77.5rem;
+         margin: 0 auto;
+      }
+      &__about{
+         max-width: 51.3rem;
+         margin: 0 auto 5.4rem; 
+      }
+      &__divder{
+         display: flex;
+         justify-content: space-between;
+      }
+      &__social,
+     &__newslatter{
+        width: 100%;
+        max-width: 27.3rem;
+        margin: 0 1rem;
+     }
+     &__social{
+        ul{
+         a{
+           img{
+              opacity: 1;
+           }
+           
+        }  
+        }
+        
+     }
+   }
+}
+   
+@media (min-width: 767px){
+ 
+}
+
+@media (min-width: 450px){
+   
+}

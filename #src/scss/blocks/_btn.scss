@@ -1,0 +1,44 @@
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0px -2px 0px 0px;
+}
+.cta-btn {
+    font-size: 1.1rem;
+    background: $white;
+    padding: 0.9rem 1.8rem;
+    color: $bodyColor;
+    border-radius: .4rem;
+    transition: all ease-in 0.3s;
+    @media (min-width: 992px){
+        &:hover{
+            color: $white;
+            background: $brown;
+        }
+     }
+}
+.body-btn {
+    font-size: 1.5rem;
+    color: $brown;
+    position: relative;
+    transition: all ease-in 0.3s;
+     &:before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        background: $brown;
+        transition: all ease-in 0.3s;
+        width: 100%;
+        height: 3px;
+    }
+    @media (min-width: 992px){
+        &:hover{
+            color: $dark;
+            &:before{
+                background: $dark;
+            }
+        }
+     }
+}

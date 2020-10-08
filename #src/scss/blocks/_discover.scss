@@ -1,0 +1,69 @@
+.discover-our-story {
+
+    &__content {
+    }
+    .global-headline {
+        margin: 6.9rem 0px 0px 0px;
+    }
+}
+
+.restaurant-info {
+    text-align: center;
+}
+.restaurant-descr {
+    margin: 0px 0px 3rem 0px;
+    p{
+        line-height: 1.6;
+        margin: 0px 0px 2.4rem 0px;
+    }
+}
+.padding-right {
+}
+.animate-left {
+}
+.global-headline {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3.9rem 0px 0px 0px;
+    .asterisk{
+        margin: 2.4rem 0;
+    }
+    .sub-headline{
+        letter-spacing: -.1px;
+        line-height: .42;
+    }
+}
+.sub-headline {
+}
+.first-later {
+}
+.headline {
+
+    &_dark {
+        color: $dark;
+        letter-spacing: .7rem;
+        margin: 0px -0.7rem 0px 0px;
+    }
+}
+
+.restaurant-info-img {
+}
+.animate-right {
+}
+.image-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.discover-our-menu{
+    .restaurant-descr {
+        padding: 3rem 0px 0px 0px;
+        margin: 0px 0px 0px  0px;
+        p{
+            line-height: 1.6;
+            margin: 0px 0px 2.4rem 0px;
+        }
+    }
+}

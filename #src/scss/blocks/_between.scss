@@ -1,0 +1,34 @@
+.testful-recipes {
+    background: url('../img/tasteful-recipes.jpg') center no-repeat;
+    background-size: cover;
+    &__content {
+    }
+}
+.between {
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+.global-headline {
+}
+.animate-top {
+}
+.sub-headline {
+}
+.first-later {
+}
+.animate-bottom {
+}
+.headline {
+
+    &_dark {
+    }
+}
+.asterisk {
+}
+
+.perfect-blend{
+    background: url('../img/perfect-blend.jpg') center no-repeat;
+    background-size: cover;
+}
